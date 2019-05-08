@@ -43,7 +43,7 @@ class App extends Component{
         onChange={this.onInputChange}/>
         <button onClick={this.onClick}>Add!</button>
         <br/>
-        { this.state.todos.length === 0 ? "No todos yet!" : <ul>{bulletedTodos}</ul> }
+        { this.state.todos.length === 0 ? "No todos!" : <ul>{bulletedTodos}</ul> }
       </div>
     );
   }
